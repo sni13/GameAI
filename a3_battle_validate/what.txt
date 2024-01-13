@@ -1,0 +1,177 @@
+id: 1 entering 0
+CSP Assignments = 
+000220
+300000
+300220
+30XXX0
+000000
+X0X0X0
+
+
+unasgn_vars: 6
+curr_v: row-3 col-2 dom-[0, 1, 2, 3, 4]
+level 0 row-3 col-2 dom-[0, 1, 2, 3, 4] 0
+prune:  0
+
+
+
+id: 2 entering 1
+CSP Assignments = 
+000220
+300000
+300220
+300XX0
+000000
+X0X0X0
+
+
+unasgn_vars: 5
+curr_v: row-3 col-3 dom-[0, 1, 2, 3, 4]
+level 1 row-3 col-3 dom-[0, 1, 2, 3, 4] 0
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+
+id: 3 entering 2
+CSP Assignments = 
+000220
+300000
+300220
+3000X0
+000000
+X0X0X0
+
+
+unasgn_vars: 4
+curr_v: row-3 col-4 dom-[0, 1, 2, 3, 4]
+level 2 row-3 col-4 dom-[0, 1, 2, 3, 4] 0
+prune:  0
+
+
+
+id: 4 entering 3
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+X0X0X0
+
+
+unasgn_vars: 3
+curr_v: row-5 col-0 dom-[0, 1, 2, 3, 4]
+level 3 row-5 col-0 dom-[0, 1, 2, 3, 4] 0
+
+
+id: 5 entering 4
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+00X0X0
+
+
+unasgn_vars: 2
+curr_v: row-5 col-2 dom-[0, 1, 2, 3, 4]
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 1
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 2
+prune:  0
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 3
+prune:  0
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 4
+prune:  0
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+id: 5 Enter next level: False
+there 4
+level 3 row-5 col-0 dom-[0, 1, 2, 3, 4] 1
+
+
+id: 6 entering 4
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+10X0X0
+
+
+unasgn_vars: 2
+curr_v: row-5 col-2 dom-[0, 1, 2, 3, 4]
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 0
+prune:  0
+
+prune:  1
+prune:  2
+prune:  3
+prune:  4
+level 4 row-5 col-2 dom-[0, 1, 2, 3, 4] 1
+prune:  0
+
+
+prune:  2
+prune:  3
+prune:  4
+
+
+
+
+
+id: 7 entering 5
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+1010X0
+
+
+unasgn_vars: 1
+curr_v: row-5 col-4 dom-[0, 1, 2, 3, 4]
+level 5 row-5 col-4 dom-[0, 1, 2, 3, 4] 1
+id: 8 entering 6
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+101010
+
+
+unasgn_vars: 0
+exiting here 6
+CSP Assignments = 
+000220
+300000
+300220
+300000
+000000
+101010
+
+
